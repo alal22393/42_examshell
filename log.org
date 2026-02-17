@@ -1,0 +1,102 @@
+#+title: Log
+* rank02
+** level0
+*** first_word
+*** fizzbuzz
+*** ft_putstr
+*** ft_strcpy
+*** ft_strlen
+*** ft_swap
+*** repeat_alpha
+:LOGBOOK:
+CLOCK: [2026-02-17 Tue 21:27]
+:END:
+*** rev_print
+:LOGBOOK:
+CLOCK: [2026-02-17 Tue 21:13]--[2026-02-17 Tue 21:22] =>  0:09
+CLOCK: [2026-02-17 Tue 20:18]--[2026-02-17 Tue 20:41] =>  0:23
+:END:
+**** Mistakes
+- Strlen function, didn't put in guard clause -> this cause segfault as reading of invalid memory
+- Main program, attempt to write this, which didnt print out anything
+  #+begin_src c
+		write(1, &argv[1],1);
+  #+end_src
+- Didn't add in newline character after printing the characters
+*** rot_13
+*** rotone
+*** search_and_replace
+*** ulstr
+** level1
+*** alpha_mirror
+*** camel_to_snake
+*** do_op
+*** ft_atoi
+*** ft_strcmp
+*** ft_strcspn
+*** ft_strdup
+*** ft_strrev
+*** inter
+*** is_power_of_2
+*** last_word
+*** max
+*** print_bits
+*** reverse_bits
+*** snake_to_camel
+*** swap_bits
+*** union
+*** wdmatch
+** level2
+*** add_prime_sum
+*** epur_str
+*** expand_str
+*** ft_atoi_base
+*** ft_list_size
+*** ft_range
+*** ft_rrange
+*** hidenp
+*** lcm
+*** paramsum
+*** pgcd
+*** print_hex
+*** rstr_capitalizer
+*** str_capitalizer
+*** tab_mult
+** level3
+*** flood_fill
+*** fprime
+*** ft_itoa
+*** ft_list_foreach
+*** ft_list_remove_if
+*** ft_split
+*** rev_wstr
+*** rostring
+*** sort_int_tab
+*** sort_list
+* rank03
+** level1
+*** broken_gnl
+*** filter
+*** scanf
+** level2
+*** n_queens
+*** permutations
+*** powerset
+*** rip
+*** tsp
+* rank04
+** level1
+*** ft_popen
+*** picoshell
+*** sandbox
+** level2
+*** argo
+*** vbc
+* rank05
+** level1
+*** bigint
+*** polyset
+*** vect2
+** level2
+*** bsq
+*** life
