@@ -9,8 +9,36 @@
 *** ft_swap
 *** repeat_alpha
 :LOGBOOK:
-CLOCK: [2026-02-17 Tue 21:27]
+CLOCK: [2026-02-17 Tue 22:32]--[2026-02-17 Tue 22:58] =>  0:26
+CLOCK: [2026-02-17 Tue 21:27]--[2026-02-17 Tue 22:01] =>  0:34
 :END:
+**** Mistakes
+- Passing wrong argument to write
+  #+begin_src c
+		write(1, *s,1); // wrong
+		write(1, s,1); // right
+  #+end_src
+- Didn't calculate the index using the correct formula
+#+begin_src c
+			if (*s >= 'a')
+				i = 'z' - *s;
+			else
+				i = 'Z' - *s;
+
+			if (*s >= 'a')
+				i = 'a' - *s;
+			else
+				i = 'a' - *s;
+
+			if (*s >= 'a')
+				i = *s - 'a'  ;
+			else
+				i = *s - 'A';
+#+end_src
+- Wrong comparison operator
+#+begin_src c
+		if ((('a'<= *s) && (*s >= 'z')) || (('A'<= *s) && (*s >= 'Z')))
+#+end_src
 *** rev_print
 :LOGBOOK:
 CLOCK: [2026-02-17 Tue 21:13]--[2026-02-17 Tue 21:22] =>  0:09
