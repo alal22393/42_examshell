@@ -2,10 +2,23 @@
 * rank02
 ** level0
 *** first_word
+:LOGBOOK:
+CLOCK: [2026-02-19 Thu 09:44]--[2026-02-19 Thu 09:57] =>  0:13
+:END:
+**** Mistakes
+- forget to increment s
+- wrong operator for comparison
+  #+begin_src c
+	while (*s && (*s != ' ' || *s != '\t'))
+  #+end_src
 *** fizzbuzz
 *** ft_putstr
 *** ft_strcpy
 *** ft_strlen
+:LOGBOOK:
+CLOCK: [2026-02-19 Thu 09:58]--[2026-02-19 Thu 10:04] =>  0:06
+:END:
+**** Mistakes
 *** ft_swap
 *** repeat_alpha
 :LOGBOOK:
@@ -52,9 +65,18 @@ CLOCK: [2026-02-17 Tue 20:18]--[2026-02-17 Tue 20:41] =>  0:23
   #+end_src
 - Didn't add in newline character after printing the characters
 *** rot_13
+:LOGBOOK:
+CLOCK: [2026-02-19 Thu 13:30]--[2026-02-19 Thu 13:43] =>  0:13
+CLOCK: [2026-02-19 Thu 10:05]--[2026-02-19 Thu 10:15] =>  0:10
+:END:
+**** Mistakes
 *** rotone
 *** search_and_replace
 *** ulstr
+:LOGBOOK:
+CLOCK: [2026-02-18 Wed 12:02]--[2026-02-18 Wed 12:12] =>  0:10
+:END:
+**** Mistakes
 ** level1
 *** alpha_mirror
 *** camel_to_snake
