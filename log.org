@@ -80,22 +80,54 @@ CLOCK: [2026-02-18 Wed 12:02]--[2026-02-18 Wed 12:12] =>  0:10
 ** level1
 *** alpha_mirror
 *** camel_to_snake
+-
 *** do_op
+-
 *** ft_atoi
 *** ft_strcmp
 *** ft_strcspn
 *** ft_strdup
 *** ft_strrev
 *** inter
+:LOGBOOK:
+CLOCK: [2026-02-24 Tue 15:40]--[2026-02-24 Tue 16:11] =>  0:31
+CLOCK: [2026-02-24 Tue 14:54]--[2026-02-24 Tue 15:22] =>  0:28
+:END:
+**** Mistake
+- Inner loop doesn't increment after printing out the char which cause n number of duplicates to be printed as the inner if statement only check string_1 and duplicate
+  #+begin_src c
+	while (argv[1][str_1])
+	{
+		str_2 = 0;
+		while (argv[2][str_2])
+		{
+			if (argv[1][str_1] == argv[2][str_2])
+			{
+				dup_1 = 0;
+				while (argv[1][dup_1] != argv[1][str_1])
+					dup_1++;
+				if (dup_1 == str_1)
+					write(1, &argv[1][str_1], 1);
+				else
+					break;
+			}
+			str_2++;
+		}
+		str_1++;
+	}
+  #+end_src
 *** is_power_of_2
 *** last_word
 *** max
+-
 *** print_bits
 *** reverse_bits
 *** snake_to_camel
 *** swap_bits
 *** union
+-
 *** wdmatch
+-
 ** level2
 *** add_prime_sum
 *** epur_str
