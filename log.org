@@ -80,9 +80,7 @@ CLOCK: [2026-02-18 Wed 12:02]--[2026-02-18 Wed 12:12] =>  0:10
 ** level1
 *** alpha_mirror
 *** camel_to_snake
--
 *** do_op
--
 *** ft_atoi
 *** ft_strcmp
 *** ft_strcspn
@@ -119,15 +117,23 @@ CLOCK: [2026-02-24 Tue 14:54]--[2026-02-24 Tue 15:22] =>  0:28
 *** is_power_of_2
 *** last_word
 *** max
--
+:LOGBOOK:
+CLOCK: [2026-02-24 Tue 16:21]--[2026-02-24 Tue 16:27] =>  0:06
+:END:
 *** print_bits
 *** reverse_bits
 *** snake_to_camel
 *** swap_bits
 *** union
--
+:LOGBOOK:
+CLOCK: [2026-02-24 Tue 18:05]--[2026-02-24 Tue 18:11] =>  0:06
+CLOCK: [2026-02-24 Tue 17:20]--[2026-02-24 Tue 17:34] =>  0:14
+CLOCK: [2026-02-24 Tue 16:28]--[2026-02-24 Tue 16:37] =>  0:09
+:END:
 *** wdmatch
--
+:LOGBOOK:
+CLOCK: [2026-02-24 Tue 18:14]--[2026-02-24 Tue 18:28] =>  0:14
+:END:
 ** level2
 *** add_prime_sum
 *** epur_str
